@@ -1,0 +1,14 @@
+# Project-local ignore rules. Repository-wide rules live in ../.gitignore.
+
+Our_paper/
+output/
+reference_papers/
+dataset/
+__pycache__/
+model/__pycache__/
+
+phaseaware1.ipynb
+phaseaware2.ipynb
+expected_results_analysis.md
+literature.md
+README_1.md

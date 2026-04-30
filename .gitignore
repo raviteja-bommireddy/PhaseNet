@@ -1,0 +1,52 @@
+# Repository-wide ignore rules for a code-only GitHub push.
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local outputs and experiments
+output/
+logs/
+checkpoints/
+runs/
+wandb/
+
+# Large data and binary assets
+*.csv
+*.zip
+*.pdf
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+
+# Notebooks and one-off notes
+*.ipynb
+IS_Project/README_1.md
+IS_Project/literature.md
+IS_Project/expected_results_analysis.md
+
+# Keep the main implementation README tracked
+!IS_Project/README.md
+
+# Project-specific bulky folders
+IS_Project/dataset/
+IS_Project/reference_papers/
+IS_Project/output/
+IS_Project/__pycache__/
+IS_Project/model/__pycache__/
